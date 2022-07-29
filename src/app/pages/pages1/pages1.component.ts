@@ -9,9 +9,12 @@ import { AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit,
 export class Pages1Component implements OnInit, OnChanges, DoCheck,
             AfterContentInit, AfterContentChecked, AfterViewInit, AfterViewChecked, OnDestroy {
 
+  name="";
+
   constructor() {
     console.log('constructor');
   }
+
   ngOnChanges(changes: SimpleChanges): void {
     console.log('ngOnChanges');
   }
@@ -36,6 +39,10 @@ export class Pages1Component implements OnInit, OnChanges, DoCheck,
 
   ngOnInit(): void {
     console.log('ngOnInit');
+  }
+
+  save(){
+
   }
 
 }
