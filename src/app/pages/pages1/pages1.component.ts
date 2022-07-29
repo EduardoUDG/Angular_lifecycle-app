@@ -9,7 +9,7 @@ import { AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit,
 export class Pages1Component implements OnInit, OnChanges, DoCheck,
             AfterContentInit, AfterContentChecked, AfterViewInit, AfterViewChecked, OnDestroy {
 
-  name="";
+  name="eduardo";
 
   constructor() {
     console.log('constructor');
